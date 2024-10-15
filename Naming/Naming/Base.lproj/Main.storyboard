@@ -185,19 +185,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pd2-rk-m9p">
-                                <rect key="frame" x="257" y="188" width="350" height="350"/>
+                                <rect key="frame" x="398" y="188" width="350" height="350"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXf-Vk-8VG">
-                                <rect key="frame" x="273" y="572" width="172" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Hint.png"/>
-                                <connections>
-                                    <action selector="buttonPressed:" destination="XDY-Yi-V4D" eventType="touchUpInside" id="Qol-EL-C0T"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDt-sx-CTp">
-                                <rect key="frame" x="497" y="565" width="172" height="176"/>
+                                <rect key="frame" x="631" y="610" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="First letter.png"/>
                                 <connections>
@@ -205,7 +197,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYX-wa-82K">
-                                <rect key="frame" x="708" y="572" width="149" height="169"/>
+                                <rect key="frame" x="957" y="576" width="149" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="rlaudioon.png"/>
                                 <connections>
@@ -213,14 +205,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yik-ZX-tF8">
-                                <rect key="frame" x="298" y="96" width="268" height="54"/>
+                                <rect key="frame" x="439" y="80" width="268" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcI-wE-NhA">
-                                <rect key="frame" x="72" y="326" width="128" height="128"/>
+                                <rect key="frame" x="100" y="310" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="previous.png"/>
                                 <connections>
@@ -228,11 +220,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJl-3x-Ets">
-                                <rect key="frame" x="644" y="326" width="139" height="107"/>
+                                <rect key="frame" x="952" y="310" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="next.png"/>
                                 <connections>
                                     <action selector="nextbtnPressed:" destination="XDY-Yi-V4D" eventType="touchUpInside" id="ViI-hy-0UC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXf-Vk-8VG">
+                                <rect key="frame" x="416" y="610" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Hint.png"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="XDY-Yi-V4D" eventType="touchUpInside" id="Qol-EL-C0T"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -245,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k3z-G8-jaD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2410" y="-441"/>
+            <point key="canvasLocation" x="2409.375" y="-441.2109375"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
