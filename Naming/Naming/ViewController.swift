@@ -74,7 +74,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         
       alert.addAction(UIAlertAction(title: "اماراتية", style:UIAlertAction.Style.destructive, handler:{ action in
             
-            myLanguage = "KW_"
+            myLanguage = "UAE_"
             self.UAElanguagepressed.layer.borderWidth = 8
             self.KWlanguagepressed.layer.borderWidth = 0
             self.EGlanguagepressed.layer.borderWidth = 0
@@ -102,7 +102,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     
     
     @IBAction func UAElanguagepressed(_ sender: Any) {
-        myLanguage = "KW_"
+        myLanguage = "UAE_"
         KWlanguagepressed.layer.borderWidth = 0
         EGlanguagepressed.layer.borderWidth = 0
         UAElanguagepressed.layer.borderWidth = 8
